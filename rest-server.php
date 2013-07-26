@@ -8,18 +8,9 @@ class ServicesWeb
 * @param string $string
 * @return string Some return message
 */ 
-
     
   public function iorder($appid)
-  {
-      /*$this->_itemModelo = new Models_ItemModelo;
-      $itemArray=$this->_itemModelo->listItemAll($appid);
-
-      foreach($itemArray as $key => $value){
-          $itemData[] = $value;
-      }
-      $response["items"] = $itemData;*/
-      
+  {    
       $response["producto"] = array(array("id" => 7, "nombre" => "Chicharron de pollo", "descripcion" => "","stock" => 30, "precio" => 10.5, "idestado"=> 1, "imagen" => "http://a3.twimg.com/profile_images/740897825/AndroidCast-350_normal.png"));
       $response["cliente"] = array(array("id" => 8, "nombre" => "Mesa 8"));
       $response["producto_galeria"] = array(array("id" => 1, "idproducto" => 1, "imagen" => "http://farm6.static.flickr.com/5186/5841048399_8d9d7aeefe.jpg", "file" => "5841048399_8d9d7aeefe.jpg", "idestado" => 1),
@@ -51,29 +42,10 @@ $this->_userModelo->insert($_POST);
 
 class RestServerController extends Zend_Rest_Controller
 {
-  /*public function  preDispatch()
-  {
-      
-  }
 
-public function indexAction()
-{
-          for($i=0;$i<=10;$i++){
-          $x[$i] = array("firstName" =>"test1","lastName" =>"test2","email" =>"test3");
-          }
-          exit(json_encode($x));
-	
-  }*/
-  
   public function init()
   {
       $this->_helper->viewRenderer->setNoRender(true);
-      
-      $this->_todo = array (
-      "1" => "Buy milk",
-      "2" => "Pour glass of milk",
-      "3" => "Eat cookies"
-      );
   }
   
   
@@ -88,9 +60,7 @@ public function indexAction()
   public function indexAction()
   {
        
-      /*$this->getResponse()
-          ->appendBody("From indexAction() returning all articles");*/
-      echo Zend_Json::encode($this->_todo);
+     return;
   }
 
   public function getAction()
