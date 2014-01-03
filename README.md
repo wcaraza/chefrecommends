@@ -5,6 +5,23 @@ The application management support restaurants! displays a list of menus to your
 
 ## How to use
 
+La aplicación posee 2 maneras de cargar y enviar datos:
+
+Webservices:
+
+Esta aplicacion consume servicios basados en RESTFUL, el API comprende servicios de envio de información desde la aplicación hasta el servidor (request) y desde es el servidor a la aplicación (response)
+
+Documentos excel:
+
+Para cargar información desde un documento excel a la aplicación use el archivo:
+<pre>
+/Excel/chefrecommends.xls
+</pre>
+Para exportar la información de los pedidos registrados de la aplicación copie el archivo:
+<pre>
+/Excel/exportchefrecommends.xls
+</pre>
+
 ## API
 
 Para actualizar la bd de aplicación movil se debe consultar las tablas de la base de datos
@@ -72,7 +89,7 @@ Request Webservices:
 
 Response Webservices:
 
-1) API para escribir información desde el servidor a la aplicación
+1) API json para escribir información desde el servidor a la aplicación
 ```js
 {
   "cliente": [
