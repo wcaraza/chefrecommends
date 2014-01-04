@@ -3,6 +3,8 @@ Chefrecommends
 
 The application management support restaurants! displays a list of menus to your customers, shows pictures of meals, places orders, synchronize your system information.
 
+![alt tag](http://3dmovil.com/archivos/images/placeit.png)
+
 ## How to use
 
 The application has 2 ways to load and send data:
