@@ -3,7 +3,7 @@ Chefrecommends
 
 If you have a restaurant this application is for you!!
 
-The application management support restaurants! displays a list of menus to your customers, shows pictures of meals, places orders, synchronize your system information.
+The support management restaurant-application displays a list of menus to your customers. In addition, shows pictures of meals, takes orders, synchronize your system information, and more.
 
 ![alt tag](http://3dmovil.com/archivos/images/placeit.png)
 
@@ -13,7 +13,7 @@ The application has 2 ways to load and send data:
 
 Webservices:
 
-This application consumes RESTFUL based services, services API comprises sending information from the application to the (request) is the server from the application server (response)
+This application reads RESTFUL based-services. The API services involves sending information from the application to the server (request), and the other way around. (response)
 
 Excel documents:
 
