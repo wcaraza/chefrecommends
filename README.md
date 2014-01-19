@@ -1,4 +1,4 @@
-Chefrecommends
+Chef Recommends
 ==============
 
 If you have a restaurant this application is for you!!
