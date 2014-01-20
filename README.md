@@ -19,11 +19,11 @@ Excel documents:
 
 To load information from an excel document to use the application file:
 <pre>
-/Excel/chefrecommends.xls
+/Chefrecommends/Excel/chefrecommends.xls
 </pre>
 To export the order information copy registered application file:
 <pre>
-/Excel/exportchefrecommends.xls
+/Chefrecommends/Excel/exportchefrecommends.xls
 </pre>
 
 ## API
